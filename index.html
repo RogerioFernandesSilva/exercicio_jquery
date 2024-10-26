@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+        <img src="./imagens/bloco-notas.jpg" alt="bloco de notas">
+    </header>
+    <form id="form-tarefa">
+        <input type="text" id="tarefa" placeholder="Digite o nome da tarefa" required>
+        <button type="submit">Adicionar Tarefa</button>
+        <button id="cancelar" type="reset">limpar tarefas</button>
+    </form>
+
+    <ul id="tarefas">
+        <!-- As tarefas serão adicionadas aqui -->
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
